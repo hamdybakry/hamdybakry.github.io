@@ -5,7 +5,9 @@ author: |-
   Lecturer in Obstetrics & Gynecology
 
   Ain Shams University Faculty of Medicine
-format: revealjs
+format: 
+  revealjs: default
+  pfd: default
 ---
 # Case scenario
 
