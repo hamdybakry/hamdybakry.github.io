@@ -1,5 +1,5 @@
 ---
-markdown: gfm
+markdown: GFM
 ---
 ## Heading 2
 
