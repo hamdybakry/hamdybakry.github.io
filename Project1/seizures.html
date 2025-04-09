@@ -1,108 +1,183 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
+<html lang="en"><head>
+<script src="seizures_files/libs/clipboard/clipboard.min.js"></script>
+<script src="seizures_files/libs/quarto-html/tabby.min.js"></script>
+<script src="seizures_files/libs/quarto-html/popper.min.js"></script>
+<script src="seizures_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="seizures_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="seizures_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="seizures_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.40">
+
   <meta name="author" content="Lecturer in Obstetrics &amp; Gynecology Ain Shams University Faculty of Medicine">
   <title>Seizures in Pregnancy</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="seizures_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="seizures_files/libs/revealjs/dist/reveal.css">
   <style>
-    .reveal .sourceCode {  /* see #7635 */
-      overflow: visible;
-    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
+    ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
       width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="seizures_files/libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link href="seizures_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="seizures_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="seizures_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="seizures_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title"><strong>Seizures in Pregnancy</strong></h1>
   <p class="subtitle"><strong>Hamdy Bakry Alqenawy, MD</strong></p>
-  <p class="author">Lecturer in Obstetrics &amp; Gynecology<br />
-Ain Shams University Faculty of Medicine</p>
-</section>
 
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Lecturer in Obstetrics &amp; Gynecology<br>
+Ain Shams University Faculty of Medicine 
+</div>
+</div>
+</div>
+
+</section>
 <section>
-<section id="case-scenario" class="title-slide slide level1">
+<section id="case-scenario" class="title-slide slide level1 center">
 <h1>Case scenario</h1>
 
 </section>
 <section id="history" class="slide level2">
 <h2>History</h2>
 <ul>
-<li>A pregnant woman is brought to the emergency department having
-suffered a seizure in the park 20 min ago. She had been alone at the
-time but the seizure was witnessed by another woman who said that she
-had stood up from a bench and then suddenly dropped to the ground. She
-thought she may have hit her head on the side of the bench with the
-fall.</li>
-<li>Her arms and legs had been shaking and then were ‘stiff and
-trembling’ for about 40 s. The woman’s face had gone dusky and there was
-some frothing at the mouth. She noticed that the woman’s trousers were
-wet afterwards.</li>
-<li>When the fit stopped the woman had appeared unconscious for a few
-minutes and then showed some response to being talked to but seemed
-confused and drowsy.</li>
+<li>A pregnant woman is brought to the emergency department having suffered a seizure in the park 20 min ago. She had been alone at the time but the seizure was witnessed by another woman who said that she had stood up from a bench and then suddenly dropped to the ground. She thought she may have hit her head on the side of the bench with the fall.</li>
+<li>Her arms and legs had been shaking and then were ‘stiff and trembling’ for about 40 s. The woman’s face had gone dusky and there was some frothing at the mouth. She noticed that the woman’s trousers were wet afterwards.</li>
+<li>When the fit stopped the woman had appeared unconscious for a few minutes and then showed some response to being talked to but seemed confused and drowsy.</li>
 </ul>
 </section>
 <section id="examination" class="slide level2">
 <h2>Examination</h2>
 <ul>
-<li>She appears to be in her 30s and in the third trimester of
-pregnancy. She is now conscious but still drowsy and her Glasgow Coma
-Scale is 9/15. Her blood pressure is 140/98 mmHg and heart rate 104/min.
-Examination shows no obvious cardiac or chest abnormality, and on
-abdominal palpation there is no apparent tenderness. The uterus feels
-approximately 30-week size (midway between umbilicus and xiphisternum),
-and a fetus can be palpated, cephalic with 4/5 palpable. Reflexes are
-brisk and plantar reflexes are upgoing.</li>
+<li>She appears to be in her 30s and in the third trimester of pregnancy. She is now conscious but still drowsy and her Glasgow Coma Scale is 9/15. Her blood pressure is 140/98 mmHg and heart rate 104/min. Examination shows no obvious cardiac or chest abnormality, and on abdominal palpation there is no apparent tenderness. The uterus feels approximately 30-week size (midway between umbilicus and xiphisternum), and a fetus can be palpated, cephalic with 4/5 palpable. Reflexes are brisk and plantar reflexes are upgoing.</li>
 <li>No investigation results are yet available.</li>
 </ul>
 </section>
 <section id="questions" class="slide level2">
 <h2>Questions</h2>
-<p><strong>What is your provisional diagnosis and how would you manage
-this woman in the first instance?</strong></p>
+<p><strong>What is your provisional diagnosis and how would you manage this woman in the first instance?</strong></p>
 </section>
-<section id="prevent-a-further-seizure-or-make-a-certain-diagnosis"
-class="slide level2">
+<section id="prevent-a-further-seizure-or-make-a-certain-diagnosis" class="slide level2">
 <h2>Prevent a further seizure OR Make a certain diagnosis?</h2>
 <ul>
-<li>Any woman with a seizure in the second half of pregnancy should be
-assumed to have eclampsia until proven otherwise.</li>
+<li>Any woman with a seizure in the second half of pregnancy should be assumed to have eclampsia until proven otherwise.</li>
 <li>➤ OBSTETRIC EMERGENCY …
 <ul>
 <li>Keep airway patent</li>
-<li>2 g MgSO4 should be given as an IV bolus, followed by an infusion of
-2 g/h.</li>
+<li>2 g MgSO4 should be given as an IV bolus, followed by an infusion of 2 g/h.</li>
 </ul></li>
 <li>➤ Then …
 <ul>
 <li>Urine sample for proteinuria.</li>
 <li>Fluid restricted initially to 80 mL/h.</li>
-<li>Blood tests: full blood count, urea and electrolytes, uric acid,
-liver function tests, coagulation screen, and group and save.</li>
+<li>Blood tests: full blood count, urea and electrolytes, uric acid, liver function tests, coagulation screen, and group and save.</li>
 <li>Transfer to HDU with continuous ECG and CTG monitoring.</li>
 </ul></li>
 </ul>
@@ -110,46 +185,32 @@ liver function tests, coagulation screen, and group and save.</li>
 <section class="slide level2">
 
 <ul>
-<li>The woman’s husband arrives shortly and explains that she is a known
-epileptic who has grand mal seizures every few days, despite drug
-treatment.</li>
+<li>The woman’s husband arrives shortly and explains that she is a known epileptic who has grand mal seizures every few days, despite drug treatment.</li>
 <li><strong>How should your management alter now?</strong></li>
 </ul>
 </section>
 <section class="slide level2">
 
-<p>The fact that the woman has epilepsy strongly suggests that this fit
-is caused by the epilepsy.</p>
+<p>The fact that the woman has epilepsy strongly suggests that this fit is caused by the epilepsy.</p>
 <ul>
 <li>The initial management was still correct</li>
-<li>You will not be sure that the fit was due to epilepsy until the
-urinalysis has been confirmed to be normal and the blood pressure,
-initially high, has normalized, the reflexes returned to normal and the
-blood tests results are found to be normal.</li>
-<li>Reflexes are commonly brisk, with upgoing plantar responses in the
-post-ictal phase.</li>
+<li>You will not be sure that the fit was due to epilepsy until the urinalysis has been confirmed to be normal and the blood pressure, initially high, has normalized, the reflexes returned to normal and the blood tests results are found to be normal.</li>
+<li>Reflexes are commonly brisk, with upgoing plantar responses in the post-ictal phase.</li>
 </ul>
 </section>
 <section class="slide level2">
 
 <ul>
-<li>This woman regained full consciousness after half an hour and the
-blood pressure was normal with negative urinalysis and normal blood
-results. The magnesium was thus discontinued and she was planned for
-neurological review within the next few days to discuss compliance and
-drug regime.</li>
+<li>This woman regained full consciousness after half an hour and the blood pressure was normal with negative urinalysis and normal blood results. The magnesium was thus discontinued and she was planned for neurological review within the next few days to discuss compliance and drug regime.</li>
 </ul>
 </section></section>
 <section>
-<section id="overview-epilepsy-in-pregnancy"
-class="title-slide slide level1">
+<section id="overview-epilepsy-in-pregnancy" class="title-slide slide level1 center">
 <h1>Overview: Epilepsy in Pregnancy</h1>
 
 </section>
-<section id="prevalence-0.6-of-pregnant-women-have-epilepsy."
-class="slide level2">
-<h2><strong>Prevalence</strong>: 0.6% of pregnant women have
-epilepsy.</h2>
+<section id="prevalence-0.6-of-pregnant-women-have-epilepsy." class="slide level2">
+<h2><strong>Prevalence</strong>: 0.6% of pregnant women have epilepsy.</h2>
 <ul>
 <li>Seizure disorders:
 <ul>
@@ -161,8 +222,7 @@ epilepsy.</h2>
 <li><strong>Generalized seizures</strong> (involve both hemispheres)
 <ul>
 <li><strong>Absence</strong>: duration &lt;20 s (“petit mal”)</li>
-<li><strong>Tonic-clonic</strong>: duration up to several minutes
-(“grand mal”)</li>
+<li><strong>Tonic-clonic</strong>: duration up to several minutes (“grand mal”)</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -170,8 +230,7 @@ epilepsy.</h2>
 <section id="maternal-risks" class="slide level2">
 <h2>Maternal risks</h2>
 <ul>
-<li><strong>Seizure Frequency</strong>: Can increase (37%), decrease
-(13%), or remain unchanged (50%).</li>
+<li><strong>Seizure Frequency</strong>: Can increase (37%), decrease (13%), or remain unchanged (50%).</li>
 <li><strong>Risk Factors for ↑ seizure frequency</strong>:
 <ul>
 <li>Poor seizure control before pregnancy</li>
@@ -179,66 +238,57 @@ epilepsy.</h2>
 <li>Hyperemesis</li>
 <li>↑ plasma volume → ↓ drug levels</li>
 </ul></li>
-<li><strong>Fetal Impact</strong>: Generally tolerates seizures but
-increased risk with status epilepticus.</li>
+<li><strong>Fetal Impact</strong>: Generally tolerates seizures but increased risk with status epilepticus.</li>
 </ul>
 </section>
 <section id="fetal-risks" class="slide level2">
 <h2>Fetal risks</h2>
 <ul>
-<li><strong>Congenital Anomalies</strong>: 2–5% risk, primarily due to
-anticonvulsant medication.
+<li><strong>Congenital Anomalies</strong>: 2–5% risk, primarily due to anticonvulsant medication.
 <ul>
-<li>Women not on medication also have a higher risk than the general
-population.</li>
+<li>Women not on medication also have a higher risk than the general population.</li>
 </ul></li>
 <li><strong>Risk Factors</strong>:
 <ul>
-<li><strong>Multiple drugs</strong> increase risk more than
-monotherapy.</li>
-<li><strong>High doses</strong> increase risk; dividing doses may
-help.</li>
+<li><strong>Multiple drugs</strong> increase risk more than monotherapy.</li>
+<li><strong>High doses</strong> increase risk; dividing doses may help.</li>
 </ul></li>
-<li><strong>Recommendations</strong>: Folic acid (5 mg daily) reduces
-risk of NTDs.</li>
+<li><strong>Recommendations</strong>: Folic acid (5 mg daily) reduces risk of NTDs.</li>
 </ul>
 </section>
 <section id="neonatal-risks-from-anticonvulsants" class="slide level2">
 <h2>Neonatal Risks from Anticonvulsants</h2>
 <ul>
-<li>Fetal anticonvulsant syndrome (dysmorphic facial features, major and
-minor structural anomalies, learning difficulties, and/or behavioral
-problems)</li>
+<li>Fetal anticonvulsant syndrome (dysmorphic facial features, major and minor structural anomalies, learning difficulties, and/or behavioral problems)</li>
 <li>Neonatal withdrawal.</li>
-<li>Vitamin K deficiency (enzyme inducers) and hemorrhagic disease of
-newborn.</li>
+<li>Vitamin K deficiency (enzyme inducers) and hemorrhagic disease of newborn.</li>
 <li>Developmental delay and behavioral problems.</li>
 <li>Epilepsy in the offspring of an epileptic mother.</li>
 </ul>
 </section>
 <section id="treatment-drugs" class="slide level2">
 <h2>Treatment Drugs</h2>
-<table>
+<table class="caption-top">
 <thead>
-<tr>
+<tr class="header">
 <th>Enzyme-inducing</th>
 <th>Non-enzyme-inducing</th>
 </tr>
 </thead>
 <tbody>
-<tr>
+<tr class="odd">
 <td>Carbamazepine (tegretol)</td>
 <td>✓✓<strong><em>Lamotrigine</em></strong> (lamictal)</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Topiramate (topamax)</td>
 <td>✓<strong><em>Levetiracetam</em></strong> (tiratam, keppra)</td>
 </tr>
-<tr>
+<tr class="odd">
 <td>Phenobarbital (sominal)</td>
 <td>❌Valproate* (depakine)</td>
 </tr>
-<tr>
+<tr class="even">
 <td>Phenytoin (epanutin)</td>
 <td>Gabapentin (gaptin, conventin)</td>
 </tr>
@@ -270,16 +320,14 @@ newborn.</li>
 </ul></li>
 <li>Space-occupying lesion</li>
 </ul>
-<p><strong>All patients who present with their 1st seizure in pregnancy
-should:</strong></p>
+<p><strong>All patients who present with their 1st seizure in pregnancy should:</strong></p>
 <ul>
 <li>have brain imaging CT/MRI</li>
 <li>be reviewed by a neurologist</li>
 </ul>
 </section></section>
 <section>
-<section id="management-of-epilepsy-in-pregnancy"
-class="title-slide slide level1">
+<section id="management-of-epilepsy-in-pregnancy" class="title-slide slide level1 center">
 <h1>Management of Epilepsy in Pregnancy</h1>
 
 </section>
@@ -287,36 +335,26 @@ class="title-slide slide level1">
 <h2>Pre-Pregnancy Counseling</h2>
 <ul>
 <li>Involve neurologist for clarity on diagnosis.</li>
-<li>Optimize treatment with the least number of drugs at the lowest
-dose.</li>
-<li>In conjunction with epilepsy team, consider stopping drugs if
-seizure-free for over 2 years.</li>
-<li>Folic acid (5 mg) recommended at least 12 weeks before conception
-till delivery.</li>
-<li>Risk of epilepsy in the child: 4% if one parent affected, 15% if
-both parents affected</li>
+<li>Optimize treatment with the least number of drugs at the lowest dose.</li>
+<li>In conjunction with epilepsy team, consider stopping drugs if seizure-free for over 2 years.</li>
+<li>Folic acid (5 mg) recommended at least 12 weeks before conception till delivery.</li>
+<li>Risk of epilepsy in the child: 4% if one parent affected, 15% if both parents affected</li>
 </ul>
 </section>
 <section id="antenatal-care" class="slide level2">
 <h2>Antenatal Care</h2>
 <ul>
-<li>Do not change medication if well-controlled and ensure
-compliance.</li>
-<li><strong>Detailed anomaly scan</strong> and possible <strong>fetal
-echocardiography</strong>.</li>
-<li>Monitor antiepileptic drug levels if needed; dose may need
-adjusting.</li>
-<li>Insufficient evidence for routine 3rd trimester maternal vitamin
-K.</li>
-<li>General Advice: showers rather than baths, avoid sleep
-deprivation</li>
+<li>Do not change medication if well-controlled and ensure compliance.</li>
+<li><strong>Detailed anomaly scan</strong> and possible <strong>fetal echocardiography</strong>.</li>
+<li>Monitor antiepileptic drug levels if needed; dose may need adjusting.</li>
+<li>Insufficient evidence for routine 3rd trimester maternal vitamin K.</li>
+<li>General Advice: showers rather than baths, avoid sleep deprivation</li>
 </ul>
 </section>
 <section id="intrapartum-care" class="slide level2">
 <h2>Intrapartum Care</h2>
 <ul>
-<li>Aim for vaginal delivery; seizures during labor are not an
-indication for cesarean unless in status epilepticus.</li>
+<li>Aim for vaginal delivery; seizures during labor are not an indication for cesarean unless in status epilepticus.</li>
 <li>Maintain usual anticonvulsants during labor.</li>
 <li>Control seizures with benzodiazepines.</li>
 </ul>
@@ -324,44 +362,65 @@ indication for cesarean unless in status epilepticus.</li>
 <section id="postnatal-care" class="slide level2">
 <h2>Postnatal Care</h2>
 <ul>
-<li>Neonatal vitamin K to ↓ risk of hemorrhagic disease of the
-newborn.</li>
+<li>Neonatal vitamin K to ↓ risk of hemorrhagic disease of the newborn.</li>
 <li>Breastfeeding is encouraged.</li>
 <li>Slowly reduce increased pregnancy AED doses postpartum.</li>
 <li>Ideal contraception: intrauterine device.</li>
 <li>General advice …</li>
-<li>Awareness regarding risk from sudden unexplained death in epilepsy
-(SUDEP)</li>
+<li>Awareness regarding risk from sudden unexplained death in epilepsy (SUDEP)</li>
 </ul>
 </section></section>
-<section id="thank-you" class="title-slide slide level1">
+<section id="thank-you" class="title-slide slide level1 center">
 <h1>THANK YOU</h1>
 
 </section>
     </div>
-  </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+</div>
+</div></div>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="seizures_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="seizures_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="seizures_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: true,
+        controlsTutorial: false,
 
         // Determines where controls appear, "edges" or "bottom-right"
-        controlsLayout: 'bottom-right',
+        controlsLayout: 'edges',
 
         // Visibility rule for backwards navigation arrows; "faded", "hidden"
         // or "visible"
@@ -387,7 +446,7 @@ newborn.</li>
         respondToHashChanges: true,
 
         // Push each slide change to the browser history
-        history: false,
+        history: true,
 
         // Enable keyboard shortcuts for navigation
         keyboard: true,
@@ -400,7 +459,7 @@ newborn.</li>
         disableLayout: false,
 
         // Vertical centering of slides
-        center: true,
+        center: false,
 
         // Enables touch navigation on devices with touch input
         touch: true,
@@ -412,7 +471,7 @@ newborn.</li>
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -422,7 +481,7 @@ newborn.</li>
 
         // Flags whether to include the current fragment in the URL,
         // so that reloading brings you to the same fragment position
-        fragmentInURL: true,
+        fragmentInURL: false,
 
         // Flags if the presentation is running in an embedded mode,
         // i.e. contained within a limited portion of the screen
@@ -476,14 +535,14 @@ newborn.</li>
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'none',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'fade',
+        backgroundTransition: 'none',
 
         // Number of slides away from the current that are visible
         viewDistance: 3,
@@ -493,13 +552,228 @@ newborn.</li>
         // viewDistance in order to save resources.
         mobileViewDistance: 2,
 
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
         // reveal.js plugins
-        plugins: [
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom
         ]
       });
     </script>
-    </body>
-</html>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
